@@ -9,7 +9,7 @@ const A = styled.a`
   }
 `
 
-export function StyledLink(props) {
+export function StyledLink(props: any) {
   return (
     <Link href={props.href} passHref>
       <A {...props} />
